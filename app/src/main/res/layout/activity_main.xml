@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:background="@mipmap/top1"
+        android:layout_width="match_parent"
+        android:layout_height="230dp" />
+    <LinearLayout
+        android:padding="5dp"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@mipmap/taopiaopiao"
+            android:onClick="jumpTaopiaoPiao"
+            android:id="@+id/button"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:background="@mipmap/dididache"
+            android:onClick="jumpDidi"
+            android:id="@+id/button2"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:background="@mipmap/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+
+</LinearLayout>
